@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "ExplainXKCD Button",
+  "version": "1.0",
+  "description": "Replace one of the navigation buttons on XKCD with a link to ExplainXKCD.",
+  "content_scripts": [
+    {
+      "matches": ["*://xkcd.com/*", "*://www.xkcd.com/*"],
+      "js": ["explainbutton.js"]
+    }
+  ]
+}
