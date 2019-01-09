@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "ExplainXKCD Button",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "author": "David Hickey",
   "homepage_url": "https://github.com/David-Hickey/ExplainXKCD-Button-Firefox",
   "description": "Replace one of the navigation buttons on XKCD with a link to ExplainXKCD.",
@@ -23,7 +23,7 @@
     }
   },
   "icons": {
-    "96": "icon_96.png",
-    "32": "icon_32.png"
+    "96": "icons/icon_96.png",
+    "32": "icons/icon_32.png"
   }
 }
