@@ -1,5 +1,11 @@
 .question {
   font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
 }
 
 input[type="radio"] {

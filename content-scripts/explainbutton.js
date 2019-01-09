@@ -5,7 +5,7 @@ let match = extractNumber.exec(window.location);
 
 if (match) {
   // Load the option to replace, then replace it.
-  browser.storage.local.get('replaced_button').then((res) => {
+  browser.storage.local.get(["replaced_button", "open_in_new_tab"]).then((res) => {
 
     // If the thing isn't set, then default to zero,
     // and replace first item.
@@ -31,6 +31,11 @@ if (match) {
     }
 
     buttonHref.text = "Explain";
-
+    
+    if (res.open_in_new_tab) {
+        buttonHref.target = "_blank";
+    } else {
+        buttonHref.target = "_self";
+    }
   });
 }

@@ -1,7 +1,8 @@
 
 function saveOptions(e) {
   browser.storage.local.set({
-    "replaced_button": getSelectedRadioValue()
+    "replaced_button": getSelectedRadioValue(),
+    "open_in_new_tab": document.getElementById("open_new_tab_id").checked
   });
   e.preventDefault();
 }
@@ -30,17 +31,9 @@ function setSelectedRadioValue(v) {
 
 
 function restoreOptions() {
-  var storageItem = browser.storage.local.get('replaced_button');
-  storageItem.then((res) => {
-    if (!res.replaced_button) {
-      browser.storage.local.set({
-        "replaced_button": "0"
-      });
-
-      setSelectedRadioValue("0");
-    } else {
-      setSelectedRadioValue(res.replaced_button);
-    }
+  browser.storage.local.get(["replaced_button", "open_in_new_tab"]).then((res) => {
+    setSelectedRadioValue(res.replaced_button || "0");
+    document.getElementById("open_new_tab_id").checked = res.open_in_new_tab || false;
   });
 }
 
