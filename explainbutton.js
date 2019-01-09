@@ -6,7 +6,14 @@ let match = extractNumber.exec(window.location);
 if (match) {
   // Load the option to replace, then replace it.
   browser.storage.local.get('replaced_button').then((res) => {
-    let replaceIndex = parseInt(res.replaced_button);
+
+    // If the thing isn't set, then default to zero,
+    // and replace first item.
+    let replaceIndex = 0;
+
+    if (res.replaced_button) {
+      replaceIndex = parseInt(res.replaced_button);
+    }
 
     // Select the fourth button in the top-left div, which is the
     // Store button.

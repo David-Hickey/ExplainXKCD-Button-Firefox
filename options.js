@@ -32,7 +32,15 @@ function setSelectedRadioValue(v) {
 function restoreOptions() {
   var storageItem = browser.storage.local.get('replaced_button');
   storageItem.then((res) => {
-    setSelectedRadioValue(res.replaced_button);
+    if (!res.replaced_button) {
+      browser.storage.local.set({
+        "replaced_button": "0"
+      });
+
+      setSelectedRadioValue("0");
+    } else {
+      setSelectedRadioValue(res.replaced_button);
+    }
   });
 }
 
