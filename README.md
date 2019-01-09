@@ -21,3 +21,7 @@ Download the `.xpi` file from the releases tab and save it on your computer. The
 Settings are stored locally.
 
 ![Settings menu](https://raw.githubusercontent.com/David-Hickey/ExplainXKCD-Button-Firefox/master/images/settings.png)
+
+## Attribution
+
+The icons used are taken from [XKCD](https://xkcd.com) and licensed under the [Creative Commons Attribution-NonCommercial 2.5 License](https://creativecommons.org/licenses/by-nc/2.5/).
