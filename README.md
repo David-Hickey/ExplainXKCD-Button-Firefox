@@ -17,7 +17,7 @@ Download the `.xpi` file from the releases tab and save it on your computer. The
 ## After
 ![After userscript](https://raw.githubusercontent.com/David-Hickey/ExplainXKCD-Button-Firefox/master/images/after.png)
 
-## Settings menu
+## Settings Menu
 Settings are stored locally.
 
 ![Settings menu](https://raw.githubusercontent.com/David-Hickey/ExplainXKCD-Button-Firefox/master/images/settings.png)
