@@ -6,3 +6,8 @@ Firefox extension that changes one of the [XKCD](https://www.xkcd.com/) nav butt
 
 ### After
 ![After userscript](https://raw.githubusercontent.com/David-Hickey/ExplainXKCD-Button-Firefox/master/images/after.png)
+
+### Settings menu
+Settings are stored locally.
+
+![Settings menu](https://raw.githubusercontent.com/David-Hickey/ExplainXKCD-Button-Firefox/master/images/settings.png)
