@@ -11,13 +11,15 @@ Make sure you're using Firefox. Just go to the releases tab and click the `.xpi`
 
 Download the `.xpi` file from the releases tab and save it on your computer. Then, go to the addons menu, click the little cog near the top right, then click `Install Add-on From File`. Find the `.xpi` file you downloaded, double click, and you're done.
 
-## Before
+## Image Gallery
+
+#### Before
 ![Before userscript](https://raw.githubusercontent.com/David-Hickey/ExplainXKCD-Button-Firefox/master/images/before.png)
 
-## After
+#### After
 ![After userscript](https://raw.githubusercontent.com/David-Hickey/ExplainXKCD-Button-Firefox/master/images/after.png)
 
-## Settings Menu
+#### Settings Menu
 Settings are stored locally.
 
 ![Settings menu](https://raw.githubusercontent.com/David-Hickey/ExplainXKCD-Button-Firefox/master/images/settings.png)
