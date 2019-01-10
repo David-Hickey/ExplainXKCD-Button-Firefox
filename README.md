@@ -1,6 +1,8 @@
 # ExplainXKCD-Button Firefox Addon
 Firefox extension that changes one of the [XKCD](https://www.xkcd.com/) nav buttons to an 'Explain' button which links to the relevant [ExplainXKCD](https://www.explainxkcd.com/wiki/index.php/Main_Page) page. The button that is replaced can be configured from the extension settings menu.
 
+You might be interested in my [Greasemonkey userscript](https://github.com/David-Hickey/ExplainXKCD-Button-Userscript) which does basically the same thing but lacks the configuration options.
+
 ## Installation
 
 #### The Easy Way
