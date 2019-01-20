@@ -9,7 +9,7 @@ You might be interested in my [Greasemonkey userscript](https://github.com/David
 
 Make sure you're using Firefox. Just go to the [releases tab](https://github.com/David-Hickey/ExplainXKCD-Button-Firefox/releases) and click the `.xpi` file in the latest release. Firefox will ask if you want to allow the addon to be installed, so click "Allow". That's it! You're done. If Firefox tells you it prevented this site asking you to install software, you might consider changing your Firefox preferences, or...
 
-#### The Hard Way
+#### The Hard Way (Desktop Only)
 
 Download the `.xpi` file from the [releases tab](https://github.com/David-Hickey/ExplainXKCD-Button-Firefox/releases) and save it on your computer. Then, go to the addons menu, click the little cog near the top right, then click `Install Add-on From File`. Find the `.xpi` file you downloaded, double click, and you're done.
 
