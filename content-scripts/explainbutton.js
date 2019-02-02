@@ -15,10 +15,9 @@ if (match) {
       replaceIndex = parseInt(res.replaced_button);
     }
 
-    // Select the fourth button in the top-left div, which is the
-    // Store button.
-    let storeButton = document.querySelectorAll("div#topLeft li")[replaceIndex];
-    let buttonHref = storeButton.firstChild;
+    // Select the appropriate nav button in the top-left div.
+    let navButton = document.querySelectorAll("div#topLeft li")[replaceIndex];
+    let buttonHref = navButton.firstChild;
 
     // Extract the comic number from the match. If no number in the URL
     // then this will be falsy, so we can easily handle that case.
