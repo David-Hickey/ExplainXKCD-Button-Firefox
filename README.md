@@ -7,7 +7,7 @@ You might be interested in my [Greasemonkey userscript](https://github.com/David
 
 #### The Really Easy Way
 
-Addon is now available from Firefox Addons. Click [\[here\]](https://addons.mozilla.org/en-GB/firefox/addon/explainxkcd-button/) to install.
+Addon is now available from Firefox Addons. Click [here](https://addons.mozilla.org/en-GB/firefox/addon/explainxkcd-button/) to install.
 
 #### The Easy-ish Way
 
