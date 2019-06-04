@@ -5,7 +5,11 @@ You might be interested in my [Greasemonkey userscript](https://github.com/David
 
 ## Installation
 
-#### The Easy Way
+#### The Really Easy Way
+
+Addon is now available from Firefox Addons. Click [\[here\]](https://addons.mozilla.org/en-GB/firefox/addon/explainxkcd-button/) to install.
+
+#### The Easy-ish Way
 
 Make sure you're using Firefox. Just go to the [releases tab](https://github.com/David-Hickey/ExplainXKCD-Button-Firefox/releases/latest) and click the `.xpi` file in the latest release. Firefox will ask if you want to allow the addon to be installed, so click "Allow". That's it! You're done. If Firefox tells you it prevented this site asking you to install software, you might consider changing your Firefox preferences, or...
 
